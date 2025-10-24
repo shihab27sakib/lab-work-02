@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+.cv-container {
+  background: #fff;
+  width: 750px;
+  padding: 40px 60px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid #0078d7;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #0078d7;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+header a {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+section h2 {
+  font-size: 22px;
+  color: #0078d7;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #0078d7;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+section p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.edu {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: square;
+  margin-left: 25px;
+  color: #444;
+}
+
+ul li {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #fff3e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.offer-card {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 400px;
+}
+
+.offer-card h1 {
+  color: #d84315;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.offer-card img {
+  border-radius: 12px;
+  margin: 15px 0;
+}
+
+.offer-card h2 {
+  font-size: 22px;
+  color: #333;
+  margin: 10px 0 15px;
+}
+
+.offer-card del {
+  color: #999;
+  font-size: 18px;
+}
+
+.offer-card .price {
+  color: #d84315;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+.offer-card small {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.offer-card p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.offer-card button {
+  background-color: #d84315;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.offer-card button:hover {
+  background-color: #bf360c;
+}
